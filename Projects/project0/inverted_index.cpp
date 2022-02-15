@@ -23,24 +23,7 @@ void printfile(string filename){
     }
 }
 
-/*void readwords(string filename){
-    ifstream file(filename);
-    string word;
-    if(file.is_open()){
-        while(file >> word){
-            if(word[word.length()-1]=='.'){
-                word.erase(word.end()-1);
-        }
-            cout<<word<<endl;
-        }
-        file.close();
 
-    }
-    else{
-        cout<<"Error";
-        
-    }
-}*/
 void insertValue(map<string, set<int> >& myMap,
                  string const& key,
                  int const& value)
@@ -83,7 +66,7 @@ int main(){
         while(getline(file, line)){
             cout<<line<<endl;
             printfile(line);
-            //readwords(line);
+            
             ifstream words(line);
             string word;
             if(words.is_open()){
