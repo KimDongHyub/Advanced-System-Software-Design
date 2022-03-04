@@ -1,5 +1,5 @@
 
-using g++ complier, make binary file named 'inverter' using this command. -> g++ DongHyubKim.cpp  -o inverter
+using g++ compiler, make binary file named 'inverter' using this command. -> g++ DongHyubKim.cpp  -o inverter
 
 run this code in terminal using command -> ./inverter inputs.txt
 
